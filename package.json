@@ -1,23 +1,15 @@
 {
-  "name": "daily-challenge-widget",
+  "name": "desktopapptutorial",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/ItzTyra20/daily-challenge-widget#readme",
-  "bugs": {
-    "url": "https://github.com/ItzTyra20/daily-challenge-widget/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ItzTyra20/daily-challenge-widget.git"
-  },
   "license": "ISC",
-  "author": "",
+  "author": "Betelgeuse",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
   "devDependencies": {
-    "electron": "^39.1.1"
+    "electron": "^35.0.0"
   }
 }
