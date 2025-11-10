@@ -2,10 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Desktop App Tutorial</title>
+    <title>Dailey Challenge</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="widget-container">
+        <!-- Custom Title Bar -->
+        <div class="title-bar">
+            <div class="title">Daily Challenge</div>
+            <div class="title-bar-controls">
+                <button id="close-btn" class="control-btn">&times;</button>
+            </div>
+        </div>
+
+        <!-- Challenge Content -->
+        <div class="content">
+            <p id="challenge-text">Click the button to get your challenge!</p>
+            <div class="details">
+                <span id="difficulty">Difficulty: -</span>
+                <span id="points">Points: -</span>
+            </div>
+            <button id="new-challenge-btn">New Challenge</button>
+        </div>
+    </div>
+
+    <!-- Include the renderer script -->
+    <script src="render.js"></script>
 </body>
 </html>

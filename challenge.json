@@ -1,0 +1,32 @@
+[
+  {
+    "challenge": "Drink a full glass of water right now.",
+    "difficulty": "Easy",
+    "points": 10
+  },
+  {
+    "challenge": "Stand up and stretch for 5 minutes.",
+    "difficulty": "Easy",
+    "points": 10
+  },
+  {
+    "challenge": "Write down 3 things you are grateful for.",
+    "difficulty": "Medium",
+    "points": 25
+  },
+  {
+    "challenge": "Do 10 push-ups or a 30-second plank.",
+    "difficulty": "Medium",
+    "points": 25
+  },
+  {
+    "challenge": "Read one chapter of a book.",
+    "difficulty": "Hard",
+    "points": 50
+  },
+  {
+    "challenge": "Spend 15 minutes learning a new skill.",
+    "difficulty": "Hard",
+    "points": 50
+  }
+]

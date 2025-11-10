@@ -6,12 +6,16 @@ let win;
 
 function createWindow() {
   win = new BrowserWindow({
-    width: 550,
-    height: 600,
+    width: 350,
+    height: 250,
+    frame: false, // Creates a frameless window
+    transparent: true, // Makes the window background transparent
+    alwaysOnTop: true, // Keeps the widget on top of other windows
+    resizable: false,
     webPreferences: {
-      nodeIntegration: false,
-      contextIsolation: true,
-      preload: path.join(__dirname, "preload.js"),
+    preload: path.join(__dirname, 'preload.js'),
+    contextIsolation: true,
+    nodeIntegration: false,
     },
   });
 
